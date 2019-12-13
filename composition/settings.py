@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'appcompo.apps.AppcompoConfig',
-    'siteapp.apps.SiteappConfig',
-    
     'django_admin_generator',
     # 'django_seed',
     'graphene_django',
