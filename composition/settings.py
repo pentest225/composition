@@ -25,7 +25,7 @@ SECRET_KEY = 'j&z^@#msbso*utljzj(^%klb!hb-)@33&jh!2jwad-p&#==fl-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://conponan.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
@@ -134,5 +134,5 @@ STATICFILES_DIRS = [
 ]
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'../static_cdn')
-MEDIA_ROOT = os.path.join(BASE_DIR,'../media_cdn')
+STATIC_ROOT = os.path.join(BASE_DIR,'static_cdn')
+MEDIA_ROOT = os.path.join(BASE_DIR,'media_cdn')
