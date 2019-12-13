@@ -1,1 +1,1 @@
-web: gunicon composition.wsgi
+web: gunicorn composition.wsgi
